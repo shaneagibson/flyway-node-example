@@ -1,0 +1,15 @@
+{
+  "name": "myservice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "migrate": "flyway -c database/flyway.js migrate"
+  },
+  "keywords": [],
+  "dependencies": {
+    "express": "~4.16.1",
+    "node-flywaydb": "^3.0.7",
+    "pg": "^8.7.1"
+  }
+}
